@@ -2,26 +2,26 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 h1{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive; /*I came to know about the font-family, font-weight, font-size and color through www.figma.com*/
     font-weight: 700;
     font-size: 80px;
     color: #363958;
 }
 h2{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive; /*I came to know about the font-family, font-weight, font-size and color through www.figma.com*/
     font-weight: 500;
     font-size: 48px;
     color: #363958;
 }
 h3{
-    font-weight: 900;
+    font-weight: 900; /*I came to know about the font-weight and color through www.figma.com*/
     color: #363958;
 }
-
-footer p{
-    font-size: 24px;
-    font-weight: 800;
+section{
+    height: 450px; /* In this case I used trial and error on my display (15.6 inch) to figure out a height */
+    padding: 100px;
 }
+
 .lightsalmon-highlight{
     color: rgba(252, 124, 74, 0.897);
 }
@@ -46,11 +46,6 @@ footer p{
 .half-width img{
     width: 100%;
 }
-section{
-    height: 450px;
-    padding: 100px;
-    border: 1px solid green;
-}
 .text-alignment{
     text-align: center;
 }
@@ -70,13 +65,12 @@ section{
     float: left;
     padding: 1%;
 }
-.project-area{
+.box-shadow-part{
     box-shadow: 10px 10px 40px gray;
     border-radius: 15px;
     background-color: whitesmoke;
     height: 60%;
     color: #6C6C6C;
-
 }
 .one-third-width img{
     width: 100%;
@@ -87,7 +81,7 @@ section{
     height: 600px;
 }
 .big-font{
-    font-size: 64px;
+    font-size: 64px; /*I came to know about the font-family, font-weight, font-size and color through www.figma.com*/
     font-family: 'Bebas Neue', cursive;
     font-weight: 700;
     color: whitesmoke;
@@ -97,7 +91,7 @@ section{
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 10%;
-    width: 906px;
+    width: 906px; /*I came to know about the height and width through www.figma.com*/
     height: 225px;
 }
 .chat-area{
@@ -105,33 +99,33 @@ section{
     width: 40%;
     margin-left: 8%;
 }
-.chat-button{
+#chat-button{
     padding: 20px 35px;
     color: whitesmoke;
     text-decoration: none;
     background-image:linear-gradient(180deg,tomato,lightsalmon);
     border-radius: 5px;
 }
-.button-space{
+#button-space{
     text-align: right;
     margin-top: 10.5%;
-    margin-bottom:10%;
+    margin-bottom: 10%;
     margin-right: -25%;
 }
-.icon-area{
-    font-family: 'Bebas Neue', cursive;
+#icon-area{
+    font-family: 'Bebas Neue', cursive; /*I came to know about the font-family, font-weight and color through www.figma.com*/
     font-weight: 500;
     color: #696871;
 }
-.icon-area-paragraph{
-    font-size: 24px;
+#icon-area-paragraph{
+    font-size: 24px; /*I came to know about the font-weight and font-size through www.figma.com*/
     font-weight: 800;
 }
-.footer-area{
+#footer-area{
     max-width: 30%;
     margin-left: 35%;
 }
-.footer-area img{
+#footer-area img{
     width: 12%;
 }
 .uppermargin-space{
